@@ -12,11 +12,6 @@
 		<post-list :posts="sortedAndSearchedPosts" @remove="removePost" v-if="!isPostsLoading" />
 		<div v-else>Идет загрузка...</div>
 		<div v-intersection="loadMorePosts" class="observer"></div>
-		<!-- <div class="page__wrapper">
-		<div class="page" v-for="pageNum in totalPages" :key="pageNum" :class="{
-			'current-page': page === pageNum,
-		}" @click="changePage(pageNum)">{{ pageNum }}</div>
-	</div>-->
 	</div>
 </template>
 
@@ -58,10 +53,6 @@ export default {
 		showDialog() {
 			this.dialogVisible = true;
 		},
-
-		//changePage(pageNum) {
-		//  this.page = pageNum;
-		//},
 
 		async fetchPosts() {
 			try {
@@ -110,11 +101,6 @@ export default {
 			return this.sortedPosts.filter(post => post.title.toLowerCase().includes(this.searchQuery.toLowerCase()))
 		}
 	},
-	watch: {
-		//page() {
-		//  this.fetchPosts()
-		//}
-	}
 }
 </script>
 
