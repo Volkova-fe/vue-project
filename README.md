@@ -1,4 +1,7 @@
-## Учебный проект с использованием Vue 3
+## Проект с использованием Vue3
+
+<img src="demo/main-vue.png" width="400">
+
 ___
 ## Обзор
 
@@ -6,6 +9,7 @@ ___
  - Сортировка
  - Поиск
  - Миксины
+ - Бесконечная лента
  - Composition api
  - Store
  - Directives
@@ -21,3 +25,23 @@ ___
 * Intersection Observer API
 
 ___
+
+___
+## Локальная установка и запуск
+```
+Клонировать репозиторий
+  git clone git@github.com:Volkova-fe/vue-project.git
+
+Войти в проект через консоль
+  cd mesto-project
+
+Установить зависимости
+  npm install
+
+Старт сервера
+  npm run dev
+  
+Адрес сервера
+
+http://127.0.0.1:5173
+```
