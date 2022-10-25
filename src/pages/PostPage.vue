@@ -89,7 +89,7 @@ export default {
 	},
 	mounted() {
 		this.fetchPosts();
-		
+
 	},
 	computed: {
 		sortedPosts() {
@@ -128,6 +128,5 @@ export default {
 
 .observer {
 	height: 30px;
-	background: green;
 }
 </style>

@@ -33,8 +33,8 @@ const routes = [
 	}
 ]
 
-const router = createRouter( {
-	routes, 
+const router = createRouter({
+	routes,
 	history: createWebHistory()
 })
 

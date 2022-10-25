@@ -47,7 +47,7 @@ export default {
 			selectedSort, sortedPost,
 			searchQuery, sortedAndSearchedPosts
 		}
-	}	
+	}
 }
 </script>
 
@@ -75,6 +75,5 @@ export default {
 
 .observer {
 	height: 30px;
-	background: green;
 }
 </style>

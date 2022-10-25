@@ -35,5 +35,7 @@ export default {
 
 .post__btws {
 	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
-<div class="dialog" v-if="show" @click.stop="hideDialog">
-<div @click.stop class="dialog__content">
-	<slot></slot>
-</div>
-</div>
+	<div class="dialog" v-if="show" @click.stop="hideDialog">
+		<div @click.stop class="dialog__content">
+			<slot></slot>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -16,7 +16,6 @@ export default {
 </script>
 
 <style scoped>
-
 .dialog {
 	top: 0;
 	bottom: 0;
